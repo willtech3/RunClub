@@ -1,0 +1,47 @@
+body{
+    background-color:#2C3539;
+}
+
+.menu { height:100px; background-color: black; }
+.menu h1 {padding:5px; margin:0; line-height:100px; height: 100px; color:white}
+
+.navbar-nav li a { height:100px; width: 100px; line-height:80px; color:white;}
+.navbar-nav li a:hover { color: black; background-color: white; }
+
+.carousel img {width:100%;}
+.slide {max-height:800px;}
+
+.social {
+    margin-top: 25px;
+    margin-bottom:25px;
+}
+
+.circle div{
+    height:200px;
+    width:200px;
+    line-height: 200px;
+    text-align: center;
+    margin: 10% 25%;
+    font-family: 'Cedarville Cursive';
+    font-size: 3em;
+    color:white;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 3px solid white;
+    background-color:black;
+}
+
+.circle div:hover{
+    background-color:white;
+    border: 3px solid black;
+    color:black;
+}
+
+.circle div a { text-decoration: none; color:inherit }
+
+
+
+
+
+

@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en" ng-app="runClub">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+<link rel="stylesheet" href="../bower_components/bootstrap-css-only/css/bootstrap.min.css">
+<link rel="stylesheet" href="../Styles/style.css">
+<link href='http://fonts.googleapis.com/css?family=Cedarville+Cursive' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="../bower_components/angular-route/angular/angular.min.js"></script>
+<script type="text/javascript" src="../bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+<script type="text/javascript" src="../app.js"></script>
+<script type="text/javascript" src="../Controllers/homeController.js"></script>
+</head>
+<body ng-controller="homeController">
+<div id="page">
+    <header class="container-fluid">
+        <div class="row menu navbar-fixed-top">
+            <div class="col-lg-2 wobLogo">
+                <img src="../Content/Images/world-of-beer-logo.jpg" alt="World of Beer Logo"/>
+            </div>
+            <div class="col-lg-7 text-center">
+                <h1>Coconut Creek Tap It And Run Club</h1>
+            </div>
+            <div class="col-lg-3">
+                <div class="navbar-header">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="text-center" id="home"><a href=".">Home</a></li>
+                        <li class="text-center" id="about"><a href=".">About</a></li>
+                        <li class="text-center" id="contact"><a href=".">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <div class="carousel">
+            <div class="row">
+                <carousel interval="20000">
+                    <slide class="slide" ng-repeat="image in images">
+                        <img ng-src="../Content/Images/{{image}}"/>
+                    </slide>
+                </carousel>
+            </div>
+         </div>
+    </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="circle">
+                    <div>
+                        <a href="#">Events</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="circle">
+                    <div>
+                        <a href="#">Blog</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="circle">
+                    <div>
+                        <a href="#">Gallery</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="circle">
+                    <div>
+                        <a href="#">Beer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid">
+        <hr>
+        <div class="col-lg-12 col-lg-offset-2" style="padding-bottom:50px; padding-top:50px;">
+            <span class="col-lg-1">
+                <img class="center-block img-rounded img-responsive" src="../Content/Images/facebook24-0.png" alt="facebook"/>
+            </span>
+            <span class="col-lg-1">
+                <img class="center-block img-rounded img-responsive" src="../Content/Images/twitter9.png" alt="twitter"/>
+            </span>
+             <span class="col-lg-1">
+                <img class="center-block img-rounded img-responsive" src="../Content/Images/social5.png" alt="google plus"/>
+             </span>
+             <span class="col-lg-1">
+                <img class="center-block img-rounded img-responsive" src="../Content/Images/social77.png" alt="instagram"/>
+             </span>
+            <span>
+                <p style="padding-top:10px; color:white; font-family:'Cedarville Cursive'; font-size: 2em;">Join us Tuesday Nights at 7 p.m.</p>
+            </span>
+        </div>
+    </footer>
+</body>
+</html>
