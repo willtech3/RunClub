@@ -1,46 +1,46 @@
-body{
-    background-color:#2C3539;
-}
+body{ background-color: #2C3539; overflow-x: hidden;}
+hr { width: 100%; position: absolute; left: 0; right: 0; }
 
-.menu { height:100px; background-color: black; }
-.menu h1 {padding:5px; margin:0; line-height:100px; height: 100px; color:white}
 
-.navbar-nav li a { height:100px; width: 100px; line-height:80px; color:white;}
+.menu { height: 100px; background-color: black; }
+.menu h1 { padding: 5px; margin: 0; line-height: 100px; height: 100px; color:white }
+
+.navbar-nav li a { height: 100px; width: 100px; line-height: 80px; color: white; }
 .navbar-nav li a:hover { color: black; background-color: white; }
 
-.carousel img {width:100%;}
-.slide {max-height:800px;}
+.carousel { margin-bottom: 30px; }
+.carousel img { width: 100%; }
 
-.social {
-    margin-top: 25px;
-    margin-bottom:25px;
-}
+.slide { max-height: 800px; }
 
-.circle div{
-    height:200px;
-    width:200px;
+.social { margin-top: 25px; margin-bottom:25px; }
+
+.angular-google-map-container { margin-top: 50px; margin-bottom: 50px; height: 600px; }
+
+.bubble div{
+    height: 200px;
+    width: 200px;
     line-height: 200px;
     text-align: center;
     margin: 10% 25%;
     font-family: 'Cedarville Cursive';
     font-size: 3em;
-    color:white;
+    color: white;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     border: 3px solid white;
-    background-color:black;
+    background-color: black;
 }
-
-.circle div:hover{
-    background-color:white;
+.bubble div:hover{
+    background-color: white;
     border: 3px solid black;
-    color:black;
+    color: black;
 }
+.bubble div a { text-decoration: none; color: inherit }
 
-.circle div a { text-decoration: none; color:inherit }
-
-
+footer p { padding-top: 10px; color: white; font-family:'Cedarville Cursive'; font-size: 2em; }
+footer #footer-container { padding-bottom: 50px; padding-top: 50px; }
 
 
 
